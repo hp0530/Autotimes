@@ -1,0 +1,35 @@
+.upcoming{
+    padding-bottom: 3rem;
+}
+
+.upcoming .box{
+    text-align: center;
+    padding:2rem;
+    margin: 2rem 0;
+    transform: scale(.9);
+}
+
+
+.upcoming .box img{
+    height:700px;
+    width:1000px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.upcoming .box .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    padding:1rem 0;
+}
+
+.upcoming .box .content h3{
+    color:var(--black);
+    font-size: 2.2rem;
+    padding-bottom: .5rem;
+}
+
+.upcoming .box .content .stars i{
+    color:var(--yellow);
+    font-size: 1.7rem;
+}
